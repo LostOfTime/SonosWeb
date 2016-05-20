@@ -6,7 +6,11 @@ angular.module('SonosWeb.Services').factory('SonosService', function ($http) {
 
         getDevices : function () {
             return $http.get('/api/device')
-        }
+        },
+
+        getCurrentTrack : function(){
+            return $http.get('/api/device/currentTrack')
+    }
 
     }
 });
