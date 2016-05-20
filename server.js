@@ -8,6 +8,9 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/static/views');
 app.set('view cache', false);
 
+// Static files
+app.use(express.static('static'));
+
 app.get('/', function (req, res) {
     res.render('index', { /* template locals context */ });
 });
