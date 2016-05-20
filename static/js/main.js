@@ -1,4 +1,4 @@
-var SonosWeb = angular.module('SonosWeb', ['ui.router', 'SonosWeb.Controller']);
+var SonosWeb = angular.module('SonosWeb', ['ui.router', 'SonosWeb.Controller', 'SonosWeb.Services']);
 
 SonosWeb.config(function ($stateProvider, $urlRouterProvider) {
 
@@ -12,3 +12,4 @@ SonosWeb.config(function ($stateProvider, $urlRouterProvider) {
         });
 });
 angular.module('SonosWeb.Controller', []);
+angular.module('SonosWeb.Services', []);
