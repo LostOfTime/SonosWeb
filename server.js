@@ -6,9 +6,10 @@ var swig    = require('swig');
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/static/views');
+app.set('view cache', false);
 
 app.get('/', function (req, res) {
-    res.send('Hello World!');
+    res.render('index', { /* template locals context */ });
 });
 
 app.listen(3000, function () {
