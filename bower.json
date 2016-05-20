@@ -19,6 +19,7 @@
     "bootstrap": "^3.3.6",
     "angular": "^1.5.5",
     "angular-ui-router": "^0.2.18",
-    "startbootstrap-agency": "https://github.com/BlackrockDigital/startbootstrap-agency.git#^1.0.6"
+    "startbootstrap-agency": "https://github.com/BlackrockDigital/startbootstrap-agency.git#^1.0.6",
+    "jquery": "^2.2.3"
   }
 }
