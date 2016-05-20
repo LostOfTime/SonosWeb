@@ -1,0 +1,22 @@
+{
+  "name": "SonosWeb",
+  "homepage": "https://github.com/LostOfTime/SonosWeb",
+  "authors": [
+    "= <miceli.antoine@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5"
+  }
+}
