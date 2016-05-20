@@ -4,8 +4,8 @@ angular.module('SonosWeb.Services').factory('SonosService', function ($http) {
 
     return {
 
-        getDevices : function () {
-            return $http.get('/api/device')
+        getRooms : function () {
+            return $http.get('/api/rooms')
         },
 
         getCurrentTrack : function(){

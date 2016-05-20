@@ -1,1 +1,78 @@
-<h1>Hello world</h1>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Sonos Web</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden active">
+                    <a href="#page-top"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="text-center" style="padding-bottom: 100px; padding-top: 100px;">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2>Liste des salles : </h2>
+                    <select class="form-control" id="selectRoom">
+                        <option ng-repeat="room in MainController.rooms"></option>
+                    </select>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>En lecture</h2>
+                    <div>
+
+                    </div>
+                    <div>
+                        <button class="btn btn-xl"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+                        <button class="btn btn-xl"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+                        <button class="btn btn-xl"><span class="glyphicon glyphicon-stop" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright © SonosWeb 2016</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

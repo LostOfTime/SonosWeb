@@ -22,6 +22,10 @@ app.get('/api/device/currentTrack', function(req, res){
     });
 });
 
+app.get('/api/rooms', function(req, res){
+    res.json([])
+});
+
 app.get('/', function (req, res) {
     res.render('index', {});
 });
